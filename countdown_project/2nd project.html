@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+    
+
+        h2 {
+            font-size: 5rem;
+            font-weight: bold;
+            padding: 3rem;
+
+        }
+
+        .coming-soon {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .countdown{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .day,.hour,.minute,.second{
+            font-size: 2.5rem;
+
+        }
+        .waiting{
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            z-index: -1;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section class="coming-soon">
+
+
+        <div>
+            <h2>We are opening up soon!</h2>
+            <div class="countdown">
+                <div class="container-day">
+                    <h3 class="day">Time</h3>
+                    <h3>Day</h3>
+                </div>
+                <div class="container-hour">
+                    <h3 class="hour">Time</h3>
+                    <h3>hour</h3>
+                </div>
+                <div class="container-minute">
+                    <h3 class="minute">Time</h3>
+                    <h3>Minute</h3>
+                </div>
+                <div class="container-second">
+                    <h3 class="second">Time</h3>
+                    <h3>Second</h3>
+                </div>
+            </div>
+        </div>
+        
+        <img class="waiting" src="techy2.jpg" alt="" srcset="">
+        
+    </section>
+    <script src="project.js"></script>
+</body>
+
+</html>
