@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div>
+            Hello this is a counter!
+        </div>
+        <div id="count">
+            0
+        </div>
+        <button id="but" onclick="update()">
+            Update
+        </button>
+        <script>
+            var count=0;
+            function update(){
+                count++;
+                document.getElementById("count").innerHTML = count;
+            }
+        </script>
+    </body>
+</html>
